@@ -25,7 +25,7 @@ public class MainTest {
     @BeforeTest
     public void setUp() {
 
-        System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver_win32_2.34\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver_win32_2.34\\chromedriver");
 
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
