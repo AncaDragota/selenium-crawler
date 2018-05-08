@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<suite name="NetexCrawler_SuitOfTest" parallel="tests" thread-count="2">-->
+<suite name="NetexCrawler_SuitOfTest" parallel="false">
+    <test name="NetexCrawler_1">
+        <classes>
+            <class name="com.ancadragota.crawler.test.main.MainTest">
+                <methods>
+                    <include name="getAllTyresDimensions"/>
+                    <include name="getAllTyresResultForSearch"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <!--<test name="NetexCrawler_2">
+        <classes>
+            <class name="com.ancadragota.crawler.test.main.MainTest">
+                <methods>
+                    <include name="getAllTyresDimensions"/>
+                    <include name="getAllTyresResultForSearch"/>
+                </methods>
+            </class>
+        </classes>
+    </test>-->
+</suite>
